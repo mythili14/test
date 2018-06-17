@@ -22,6 +22,7 @@ public void setup(){
 	{
 		WebDriver cDriver= new  ChromeDriver();
 		cDriver.get("https://www.makemytrip.com/");
+		System.out.println("hello karish");
 		WebElement from = cDriver.findElement(By.id("hp-widget__sfrom"));
 	//	WebElement to = cDriver.findElement(By.id("hp-widget__sTo"));
 	//	WebElement departDate = cDriver.findElement(By.id("hp-widget__depart"));
